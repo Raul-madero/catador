@@ -11,7 +11,7 @@ $secondary-font: 'Great Vibes', cursive;
 	line-height: calculateRem($size)*1.5;
 }
 @function calculateRem($size) {
-	$remsize: $size / 16px;
+	$remsize:calc($size / 16px);
 	@return $remsize * 1rem;
 }
 * {

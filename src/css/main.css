@@ -60,5 +60,25 @@ main {
   display: none;
 }
 
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.hero-info__title {
+  display: inline-block;
+  width: 100%;
+  padding: 24px;
+  text-align: center;
+  font-family: "Great Vibes", cursive;
+  color: #FCEFEF;
+  font-size: 36px;
+  font-size: 2.25rem;
+  line-height: 3.375rem;
+}
+
 /* Media Queries Mixin
 **********************/

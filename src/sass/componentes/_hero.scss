@@ -26,3 +26,20 @@ main {
 .hero-nav {
     display: none;
 }
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    &__title {
+        display: inline-block;
+        width: 100%;
+        padding: 24px;
+        text-align: center;
+        font-family: $secondary-font;
+        color: $offwhite;
+        @include font-size(36px)
+    }
+}
