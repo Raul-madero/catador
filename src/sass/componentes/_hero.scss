@@ -40,6 +40,35 @@ main {
         text-align: center;
         font-family: $secondary-font;
         color: $offwhite;
-        @include font-size(36px)
+        @include font-size(48px)
+    }
+}
+.hero-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    &__reserva {
+        width: 300px;
+        height: 80px;
+        margin: 15px auto;
+        background-color: $dodger-blue;
+        border: none;
+        border-radius: 24px;
+        box-shadow: 0 8px 8px 0 $darkgreen;
+        color: $darkgreen;
+        font-weight: 700;
+        @include font-size(28px);
+    }
+    &__informacion {
+        width: 200px;
+        height: 50px;
+        margin: 20px auto;
+        padding: 4px;
+        background: none;
+        border: 2px solid $offwhite;
+        border-radius: 20px;
+        color: $offwhite;
+        font-weight: 600;
+        @include font-size(24px)
     }
 }

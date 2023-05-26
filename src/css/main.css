@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "EB Garamond", serif;
 }
 
 header {
@@ -75,9 +76,43 @@ main {
   text-align: center;
   font-family: "Great Vibes", cursive;
   color: #FCEFEF;
-  font-size: 36px;
-  font-size: 2.25rem;
-  line-height: 3.375rem;
+  font-size: 48px;
+  font-size: 3rem;
+  line-height: 4.5rem;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.hero-buttons__reserva {
+  width: 300px;
+  height: 80px;
+  margin: 15px auto;
+  background-color: #389DFF;
+  border: none;
+  border-radius: 24px;
+  box-shadow: 0 8px 8px 0 #16302B;
+  color: #16302B;
+  font-weight: 700;
+  font-size: 28px;
+  font-size: 1.75rem;
+  line-height: 2.625rem;
+}
+.hero-buttons__informacion {
+  width: 200px;
+  height: 50px;
+  margin: 20px auto;
+  padding: 4px;
+  background: none;
+  border: 2px solid #FCEFEF;
+  border-radius: 20px;
+  color: #FCEFEF;
+  font-weight: 600;
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
 }
 
 /* Media Queries Mixin
