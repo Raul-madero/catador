@@ -120,6 +120,7 @@ main {
   position: relative;
   width: 90%;
   margin: 0 auto;
+  background-color: #EE5722;
 }
 
 .card-container {
@@ -128,6 +129,10 @@ main {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  background-image: url("../images/agave.jpg");
+  background-size: 40px;
+  background-repeat: repeat;
+  background-origin: content-box;
   top: -50px;
   width: 100%;
 }
@@ -148,6 +153,10 @@ main {
   border-radius: 100%;
   -webkit-margin-after: 18px;
           margin-block-end: 18px;
+  box-shadow: -25px -25px 40px rgba 0, 0, 0, 0.5;
+}
+.experiencia__title {
+  color: #182825;
 }
 
 /* Media Queries Mixin
