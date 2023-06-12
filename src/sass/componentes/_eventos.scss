@@ -1,0 +1,29 @@
+.eventos-container {
+    width: 100%;
+    height: 1000px;
+    margin-block-start: 60px;
+    background: $dodger-blue;
+}
+.eventos {
+    width: 80%;
+    height: 250px;
+    margin: 0 auto;
+    & h3 {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        padding: 18px;
+        font-family: $secondary-font;
+        color: $darkgreen;
+        @include font-size(36px)
+    }
+    & .img-container {
+        width: 100%;
+        height: 200px;
+        padding: 24px;
+        margin: 0 auto;
+        & .image {
+            width: 100%;
+        }
+    }
+}

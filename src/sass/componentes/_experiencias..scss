@@ -1,11 +1,11 @@
+.second-section {
+    background-color: $offwhite;
+}
 .experiencias-container {
-    position: relative;
     width: 90%;
-    margin: 0 auto;
-    background-color: $dodger-blue;
+    margin: -60px auto;
 }
 .card-container {
-    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
