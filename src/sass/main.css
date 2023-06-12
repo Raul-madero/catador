@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "EB Garamond", serif;
+}
+
+header {
+  display: none;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  padding: 10px 24px 0 24px;
+}
+
+.header-logo {
+  width: 80px;
+}
+.header-logo_image {
+  width: 100%;
+}
+
+.header-nav {
+  display: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/agavesSmall.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  padding: 10px 24px 0 24px;
+}
+
+.hero-logo {
+  width: 80px;
+}
+.hero-logo_image {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.hero-nav {
+  display: none;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.hero-info__title {
+  display: inline-block;
+  width: 100%;
+  padding: 24px;
+  text-align: center;
+  font-family: "Great Vibes", cursive;
+  color: #FCEFEF;
+  font-size: 48px;
+  font-size: 3rem;
+  line-height: 4.5rem;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.hero-buttons__reserva {
+  width: 250px;
+  height: 50px;
+  margin: 15px auto;
+  background-color: #EE5722;
+  border: none;
+  border-radius: 24px;
+  box-shadow: 0 8px 8px 0 #182825;
+  color: #182825;
+  font-weight: 700;
+  font-size: 28px;
+  font-size: 1.75rem;
+  line-height: 2.625rem;
+}
+.hero-buttons__informacion {
+  width: 200px;
+  height: 50px;
+  margin: 20px auto;
+  padding: 4px;
+  background: none;
+  border: 2px solid #FCEFEF;
+  border-radius: 20px;
+  color: #FCEFEF;
+  font-weight: 600;
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
+
+.experiencias-container {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #EE5722;
+}
+
+.card-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("../images/Agavecenefa.svg");
+  background-position: center;
+  background-size: 150px;
+  background-repeat: repeat;
+  background-origin: content-box;
+  top: -50px;
+  width: 100%;
+}
+
+.experiencia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -webkit-margin-after: 84px;
+          margin-block-end: 84px;
+  width: 100%;
+  height: 250px;
+}
+.experiencia__image {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  -webkit-margin-after: 18px;
+          margin-block-end: 18px;
+  box-shadow: 4px 18px 8px #08B2E3, -4px -18px 15px #FCEFEF;
+}
+.experiencia__title {
+  color: #182825;
+}
+
+/* Media Queries Mixin
+**********************//*# sourceMappingURL=main.css.map */

@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-image: url('../images/agave.png');
+    background-image: url('../images/Agavecenefa.svg');
     background-position: center;
     background-size: 150px;
     background-repeat: repeat;
@@ -31,7 +31,8 @@
         height: 200px;
         border-radius: 100%;
         margin-block-end: 18px;
-        box-shadow: -25px -25px 40px rgba (0,0,0, .5);
+        box-shadow:  4px 18px 8px $taupe-gray,
+             -4px -18px 15px $offwhite;
     }
     &__title {
         color: $darkgreen;
